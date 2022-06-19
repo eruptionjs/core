@@ -10,5 +10,6 @@
   "bracketSpacing": true,
   "bracketSameLine": false,
   "arrowParens": "always",
-  "endOfLine": "lf"
+  "endOfLine": "lf",
+  "importOrder": ["^(^react$|@react|react|^recoil$)", "<THIRD_PARTY_MODULES>", "^@/(.*)$", "^[./]"]
 }
