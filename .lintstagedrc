@@ -1,6 +1,6 @@
 {
   "*.{ts,tsx}": [
-    "prettier:fix",
-    "lint:fix"
+    "npm run prettier:fix",
+    "npm run lint:fix"
   ]
 }
