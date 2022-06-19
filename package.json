@@ -6,8 +6,9 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "test": "jest",
-    "test:coverage": "jest --watchAll",
+    "test": "vitest",
+    "test:coverage": "vitest --watch --coverage --ui",
+    "test:ui": "vitest --watch --ui",
     "lint": "npx eslint src",
     "lint:fix": "npm run lint -- --fix",
     "prettier": "npx prettier src --check",
@@ -21,12 +22,19 @@
     "react-dom": "^18.x"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.x",
+    "@commitlint/config-conventional": "^17.x",
     "@fvilers/disable-react-devtools": "^1.x",
+    "@testing-library/jest-dom": "^5.x",
+    "@testing-library/react": "^13.x",
+    "@testing-library/user-event": "^14.x",
     "@types/react": "^18.x",
     "@types/react-dom": "^18.x",
     "@typescript-eslint/eslint-plugin": "^5.x",
     "@typescript-eslint/parser": "^5.x",
     "@vitejs/plugin-react": "^1.x",
+    "@vitest/ui": "^0.15.1",
+    "c8": "^7.x",
     "eslint": "^8.x",
     "eslint-config-prettier": "^8.x",
     "eslint-plugin-import": "^2.x",
@@ -34,11 +42,13 @@
     "eslint-plugin-prettier": "^4.x",
     "eslint-plugin-react": "^7.x",
     "eslint-plugin-react-hooks": "^4.x",
-    "husky": "^8.x",
-    "lint-staged": "^13.0.2",
+    "happy-dom": "^5.x",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.x",
     "prettier": "^2.x",
     "typescript": "^4.x",
     "vite": "^2.x",
-    "vite-tsconfig-paths": "^3.x"
+    "vite-tsconfig-paths": "^3.x",
+    "vitest": "^0.x"
   }
 }
