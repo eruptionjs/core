@@ -1,7 +1,7 @@
 {
-  "name": "volcano",
-  "private": true,
-  "version": "0.0.0",
+  "name": "eruption",
+  "private": false,
+  "version": "1.0.0",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -50,5 +50,12 @@
     "vite": "^2.x",
     "vite-tsconfig-paths": "^3.x",
     "vitest": "^0.x"
-  }
+  },
+  "keywords": [
+    "react",
+    "boilerplate",
+    "vite",
+    "bundle",
+    "typescript"
+  ]
 }
