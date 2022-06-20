@@ -36,6 +36,10 @@ npm install
 npm run dev
 ```
 
+## Try it online
+
+Want to try Eruption without clone local? Try it on [StackBlitz](https://stackblitz.com/fork/github/devMozao/eruption)
+
 # Commits
 
 This project have commits configured to follow the Conventional Commits's best practice.
