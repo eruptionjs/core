@@ -1,0 +1,60 @@
+{
+  "useState": {
+    "prefix": "usestate",
+    "body": [
+      "const [${1}, set${1/(^[a-zA-Z])(.*)/${1:/upcase}${2}/}] = useState(${2:initialState})$0"
+    ]
+  },
+  "useEffect": {
+    "prefix": "useeffect",
+    "body": [
+      "useEffect(() => {",
+      "  $1",
+      "}, [])$0"
+    ]
+  },
+  "useReducer": {
+    "prefix": "usereducer",
+    "body": [
+      "const [state, dispatch] = useReducer(${1:reducer}, ${2:initialState})$0"
+    ]
+  },
+  "useRef": {
+    "prefix": "useref",
+    "body": [
+      "const ${1:ref} = useRef($2)$0"
+    ]
+  },
+  "useCallback": {
+    "prefix": "usecallback",
+    "body": [
+      "const ${1:callback} = useCallback(() => {",
+      " $2",
+      "}, [$3])$0"
+    ]
+  },
+  "useMemo": {
+    "prefix": "usememo",
+    "body": [
+      "const ${1:value} = useMemo(() => $2, [$3])"
+    ]
+  },
+  "describe": {
+    "prefix": "desc",
+    "body": [
+      "describe('$1', () => {",
+      "  it('should $2', () => {",
+      "    $3",
+      "  })",
+      "})"
+    ]
+  },
+  "it test closure": {
+    "prefix": "it",
+    "body": [
+      "it('should $1', () => {",
+      "  $2",
+      "})",
+    ]
+  }
+}

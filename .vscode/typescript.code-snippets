@@ -1,0 +1,6 @@
+{
+  "import": {
+    "prefix": "imp",
+    "body": "import ${2:module} from '${1}'"
+  }
+}
