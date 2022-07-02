@@ -6,21 +6,21 @@ _It's fast! Even the tests are fast, thanks to Vite with Vitest ⚡️_
 
 # What's in the boilerplate
 
-- Vite
-- React
-- Typescript
-- Vitest
-- Testing Library
+- [Vite](https://vitejs.dev/)
+- [React](https://reactjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Vitest](https://vitest.dev/)
+- [Testing Library](https://testing-library.com/)
 - Dev Tools
-  - ESLint
-  - Prettier
-  - CommitLint
-  - Husky
-  - Lint-Staged
+  - [ESLint](https://eslint.org/)
+  - [Prettier](https://prettier.io/)
+  - [CommitLint](https://commitlint.js.org/#/)
+  - [Husky](https://typicode.github.io/husky/#/)
+  - [Lint-Staged](https://github.com/okonet/lint-staged)
 
 # Installation
 
-This project uses DEGIT to scaffold.
+This project uses [DEGIT](https://github.com/Rich-Harris/degit) to scaffold.
 
 first, clone the project and give it a name
 
