@@ -25,7 +25,7 @@ This project uses [DEGIT](https://github.com/Rich-Harris/degit) to scaffold.
 first, clone the project and give it a name
 
 ```Bash
-npx degit github:devmozao/eruption#main your-project-name
+npx degit github:eruptionjs/core#main your-project-name
 ```
 
 then, to start the project
