@@ -38,7 +38,7 @@ npm run dev
 
 ## Try it online
 
-Want to try Eruption without clone local? Try it on [StackBlitz](https://stackblitz.com/fork/github/devMozao/eruption)
+Want to try Eruption without clone local? Try it on [StackBlitz](https://stackblitz.com/fork/github/eruptionjs/core)
 
 # Commits
 
