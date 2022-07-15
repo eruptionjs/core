@@ -15,7 +15,8 @@
     "prettier:fix": "npm run prettier -- --write",
     "format": "npm run prettier:fix && npm run lint:fix",
     "lint-staged": "lint-staged",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "commit": "commit"
   },
   "dependencies": {
     "react": "^18.x",
@@ -24,6 +25,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.x",
     "@commitlint/config-conventional": "^17.x",
+    "@commitlint/prompt-cli": "^17.0.3",
     "@fvilers/disable-react-devtools": "^1.x",
     "@testing-library/jest-dom": "^5.x",
     "@testing-library/react": "^13.x",
