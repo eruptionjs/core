@@ -3,7 +3,7 @@
     "npm run prettier:fix",
     "npm run lint:fix"
   ],
-  "*.!{ts,tsx}": [
-    "npm run prettier:fix"
+  "*.{css}": [
+    "npm run lint:css"
   ]
 }

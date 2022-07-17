@@ -1,11 +1,9 @@
-import { render } from '@testing-library/react'
+import { render, screen } from '@testing-library/react'
 
-import App from '.'
+import { App } from './index'
 
-describe('Hello Jest', () => {
-  it('shoud pass', () => {
-    const container = render(<App />)
-
-    expect(container.getByText('teste')).toBeInTheDocument()
-  })
+test('renders learn react link', () => {
+  render(<App />)
+  const linkElement = screen.getByText(/learn react/i)
+  expect(linkElement).toBeInTheDocument()
 })
