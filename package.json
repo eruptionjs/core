@@ -86,6 +86,8 @@
     "boilerplate",
     "vite",
     "bundle",
-    "typescript"
+    "typescript",
+    "starter",
+    "template"
   ]
 }
