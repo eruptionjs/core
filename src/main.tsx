@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 
 import { App } from '@/App'
 
-import reportWebVitals from './reportWebVitals'
+import './index.css'
 
 createRoot(document.getElementById('root') as HTMLElement).render(
   <StrictMode>
@@ -11,5 +11,5 @@ createRoot(document.getElementById('root') as HTMLElement).render(
   </StrictMode>,
 )
 
-// eslint-disable-next-line no-console
-reportWebVitals(console.log)
+// import reportWebVitals from './reportWebVitals'
+// reportWebVitals(console.log)
