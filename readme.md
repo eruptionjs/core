@@ -42,18 +42,19 @@ Want to try Eruption without clone local? Try it on [StackBlitz](https://stackbl
 
 # Commits
 
-This project have commits configured to follow the Conventional Commits's best practice.
+This project have commits configured to follow the Conventional Commits's best practice and it's configured with ESLint, Prettier and Stylelint.
 
 To commit, you must follow the convention `<type>[optional scope]: <description>`. In practice, it would be as follow:
 
 ```git
 git commit -m "feat: add button component"
-
 ```
 
 Then, Husky will start the pre-commit hook and run lint-staged, who will run `prettier` and `lint` to validate code format and code lint. If you fail to follow any one of these validations above, the commit will be aborted.
 
 After that, if everything is validated correctly, Husky will proceed with the commit-msg hook, where he will evaluate if your commit message is following the Conventional Commit's best practice and will run the tests of your project. If any of the tests are broken, the commit will be aborted. You must fix the tests before proceeding.
+
+You can also commit your files with the help of the CLI. To do so just run `npm run commit` .From there, the CLI will assist you on the proccess. As said before: if your files fail the validation, you must fix it before proceeds.
 
 As a best practice, it is strongly suggested that you avoid skip validations. If you need to change the way your commit messages are written, just go to file `commitlint.config.ts` and you will find there the configs needed.
 

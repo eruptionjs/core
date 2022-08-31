@@ -28,8 +28,8 @@
     "commit": "commit"
   },
   "engines": {
-    "node": "^16.16.x",
-    "npm": "^8.11.x"
+    "node": "^16.17.x",
+    "npm": "^8.15.x"
   },
   "dependencies": {
     "react": "^18.x",
@@ -62,6 +62,7 @@
     "happy-dom": "^5.x",
     "husky": "^8.x",
     "lint-staged": "^13.x",
+    "msw": "^0.x",
     "prettier": "^2.x",
     "stylelint": "^14.x",
     "stylelint-config-prettier": "^9.x",

@@ -5,10 +5,22 @@
   text-align: center;
 }
 
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
+}
+
+.logo.eruption {
+  font-size: 6em;
+  padding: 0;
 }
 
 .logo:hover {
@@ -17,6 +29,10 @@
 
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.logo.eruption:hover {
+  filter: drop-shadow(0 0 0.3em rgb(245 119 0));
 }
 
 @keyframes logo-spin {
