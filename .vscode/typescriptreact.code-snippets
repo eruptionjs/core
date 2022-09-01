@@ -51,14 +51,6 @@
     "prefix": ["umf", "umemo", "usememo"],
     "body": ["const ${1:value} = useMemo(() => $3, [${2:deps}])$0"]
   },
-  "describe": {
-    "prefix": ["desc"],
-    "body": ["describe('$1', () => {", "  it('should $2', () => {", "    $3", "  })", "})$0"]
-  },
-  "it test closure": {
-    "prefix": ["it"],
-    "body": ["it('should $1', () => {", "  $2", "})$0"]
-  },
   "classComponentRender": {
     "prefix": ["ccr"],
     "body": [
@@ -86,20 +78,6 @@
       "}",
       "",
       "export default $1",
-      "$0"
-    ]
-  },
-  "functionalComponent": {
-    "prefix": ["fc"],
-    "body": ["function ${1:name}(${2:props}) {", "$3", "  return $4", "}", "$0"]
-  },
-  "functionalComponentProps": {
-    "prefix": ["fct"],
-    "body": [
-      "function ${1:Component}(${2:props}): ${3:returnValue} {",
-      "  $4",
-      "  return $5",
-      "}",
       "$0"
     ]
   },

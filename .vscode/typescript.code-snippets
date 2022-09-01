@@ -1,6 +1,32 @@
 {
   "import": {
-    "prefix": "imp",
-    "body": "import ${2:module} from '${1}'"
+    "prefix": ["imp"],
+    "body": "import ${2:module} from '${1}'$0"
+  },
+  "describe": {
+    "prefix": ["desc"],
+    "body": ["describe('$1', () => {", "  it('should $2', () => {", "    $3", "  })", "})$0"]
+  },
+  "it test closure": {
+    "prefix": ["it"],
+    "body": ["it('should $1', () => {", "  $2", "})$0"]
+  },
+  "function": {
+    "prefix": ["fc"],
+    "body": ["function ${1:name}() {", "$2", "  return $3", "}", "$0"]
+  },
+  "functionProps": {
+    "prefix": ["fcp"],
+    "body": ["function ${1:name}(${2:props}) {", "$3", "  return $4", "}", "$0"]
+  },
+  "functionPropsTyped": {
+    "prefix": ["fcpt"],
+    "body": [
+      "function ${1:Component}(${2:props}): ${3:returnValue} {",
+      "  $4",
+      "  return $5",
+      "}",
+      "$0"
+    ]
   }
 }
