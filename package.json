@@ -33,13 +33,13 @@
   },
   "dependencies": {
     "react": "^18.x",
-    "react-dom": "^18.x"
+    "react-dom": "^18.x",
+    "@fvilers/disable-react-devtools": "^1.x"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.x",
     "@commitlint/config-conventional": "^17.x",
     "@commitlint/prompt-cli": "^17.x",
-    "@fvilers/disable-react-devtools": "^1.x",
     "@testing-library/jest-dom": "^5.x",
     "@testing-library/react": "^13.x",
     "@testing-library/user-event": "^14.x",
