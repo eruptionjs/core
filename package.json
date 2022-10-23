@@ -93,5 +93,8 @@
     "typescript",
     "starter",
     "template"
-  ]
+  ],
+  "msw": {
+    "workerDirectory": "public"
+  }
 }
