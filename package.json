@@ -28,7 +28,7 @@
     "commit": "commit"
   },
   "engines": {
-    "node": "^16.x.x",
+    "node": "^18.x.x",
     "npm": "^8.x.x"
   },
   "dependencies": {
