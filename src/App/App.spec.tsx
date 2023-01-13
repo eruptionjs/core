@@ -7,7 +7,7 @@ describe('App', () => {
   test('should return the correct text', () => {
     render(<App />)
 
-    expect(screen.getByText('Vite + React = Eruption')).toBeInTheDocument()
+    expect(screen.getByText('Vite + React/TS = EruptionJS')).toBeInTheDocument()
   })
 
   test('should return 1 when the user click one time at button', () => {
