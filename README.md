@@ -50,7 +50,7 @@ To commit, you must follow the convention `<type>[optional scope]: <description>
 git commit -m "feat: add button component"
 ```
 
-Then, Husky will start the pre-commit hook and run lint-staged, who will run `prettier` and `lint` to validate code format and code lint. If you fail to follow any one of these validations above, the commit will be aborted.
+Then, Husky will start the pre-commit hook and run lint-staged, who will run `prettier`, `lint` and `stylelint` to validate code format and code lint. If you fail to follow any one of these validations above, the commit will be aborted.
 
 After that, if everything is validated correctly, Husky will proceed with the commit-msg hook, where he will evaluate if your commit message is following the Conventional Commit's best practice and will run the tests of your project. If any of the tests are broken, the commit will be aborted. You must fix the tests before proceeding.
 
