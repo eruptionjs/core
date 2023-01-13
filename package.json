@@ -28,8 +28,8 @@
     "commit": "commit"
   },
   "engines": {
-    "node": "^16.17.x",
-    "npm": "^8.15.x"
+    "node": "^16.x.x",
+    "npm": "^8.x.x"
   },
   "dependencies": {
     "react": "^18.x",
