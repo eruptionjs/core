@@ -11,11 +11,27 @@ if (import.meta.env.MODE === 'production') {
   disableReactDevTools()
 }
 
-createRoot(document.getElementById('root') as HTMLElement).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-)
+const root = createRoot(document.getElementById('root') as HTMLElement)
+
+if (import.meta.env.MODE === 'development') {
+  import('@/mocks/browser')
+    .then(({ worker }) => {
+      worker.start()
+    })
+    .then(() => {
+      root.render(
+        <StrictMode>
+          <App />
+        </StrictMode>,
+      )
+    })
+} else {
+  root.render(
+    <StrictMode>
+      <App />
+    </StrictMode>,
+  )
+}
 
 // import reportWebVitals from './reportWebVitals'
 // reportWebVitals(console.log)
