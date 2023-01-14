@@ -19,7 +19,7 @@ export const App = () => {
           <span className="logo eruption">🌋</span>
         </a>
       </div>
-      <h1>Vite + React + Eruption</h1>
+      <h1>Vite + React/TS = EruptionJS</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>count is {count}</button>
         <p>
