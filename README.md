@@ -20,7 +20,7 @@ _It's fast! Even the tests are fast, thanks to Vite with Vitest ⚡️_
 
 # Installation
 
-This project uses [DEGIT](https://github.com/Rich-Harris/degit) to scaffold.
+This project uses [DEGIT](https://github.com/Rich-Harris/degit) to scaffold. A friendly CLI is coming soon to improve the DX 👀.
 
 first, clone the project and give it a name
 
@@ -50,13 +50,15 @@ To commit, you must follow the convention `<type>[optional scope]: <description>
 git commit -m "feat: add button component"
 ```
 
-Then, Husky will start the pre-commit hook and run lint-staged, who will run `prettier`, `lint` and `stylelint` to validate code format and code lint. If you fail to follow any one of these validations above, the commit will be aborted.
+Then, Husky will start the pre-commit hook and run lint-staged, who will run `prettier`, `lint` and `stylelint` to validate code format and code lint. If you fail to follow any of these validations, the commit will be aborted.
 
-After that, if everything is validated correctly, Husky will proceed with the commit-msg hook, where he will evaluate if your commit message is following the Conventional Commit's best practice and will run the tests of your project. If any of the tests are broken, the commit will be aborted. You must fix the tests before proceeding.
+After that, if everything is validated correctly, Husky will proceed with the commit-msg hook, where it will evaluate if your commit message is following the Conventional Commit's best practice and later run the tests of your project. If any of the tests are broken, the commit will be aborted. You must fix the tests before proceed.
 
-You can also commit your files with the help of the CLI. To do so just run `npm run commit` .From there, the CLI will assist you on the proccess. As said before: if your files fail the validation, you must fix it before proceeds.
+You can also commit your files with the help of the CLI. To do so, just run `npm run commit`. From there, the CLI will assist you in the proccess. As before: if your changes fails the validation, you must fix it before proceed.
 
-As a best practice, it is strongly suggested that you avoid skip validations. If you need to change the way your commit messages are written, just go to file `commitlint.config.ts` and you will find there the configs needed.
+As a best practice, it is strongly recommended that you do not skip the validations. If you need to change the way your commit messages are written, just go to file `commitlint.config.ts` and you will find there the config needed.
+
+Check out [commitlint](https://commitlint.js.org/#/) docs to see further configurations that you can do.
 
 # Motivation
 
