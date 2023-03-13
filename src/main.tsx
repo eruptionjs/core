@@ -14,7 +14,7 @@ if (import.meta.env.MODE === 'production') {
 const root = createRoot(document.getElementById('root') as HTMLElement)
 
 if (import.meta.env.MODE === 'development') {
-  import('@/mocks/browser')
+  import('@/__mocks__/browser')
     .then(({ worker }) => {
       worker.start()
     })
