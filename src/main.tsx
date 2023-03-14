@@ -33,5 +33,6 @@ if (import.meta.env.MODE === 'development') {
   )
 }
 
+// Uncomment if you want to see the Lighthouse report in the console
 // import reportWebVitals from './reportWebVitals'
 // reportWebVitals(console.log)
