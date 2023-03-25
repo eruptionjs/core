@@ -84,7 +84,7 @@
   "statelessFunctionalComponent": {
     "prefix": ["sfc"],
     "body": [
-      "const ${1:Component}: FunctionComponent = (${2:props}) => {",
+      "const ${1:Component}: FC = (${2:props}) => {",
       "",
       "  $4",
       "",
@@ -98,7 +98,7 @@
   "statelessFunctionalComponentProps": {
     "prefix": ["sfcp"],
     "body": [
-      "const ${1:Component}: FunctionComponent<${2:Props}> = (${3:props}) => {",
+      "const ${1:Component}: FC<${2:Props}> = (${3:props}) => {",
       "",
       "  $5",
       "",
