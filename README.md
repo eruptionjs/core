@@ -36,6 +36,19 @@ npm install
 npm run dev
 ```
 
+## Try with Docker
+
+```bash
+docker build -t react-app .
+docker run -d --rm -p 3000:3000 react-app
+```
+
+or
+
+```bash
+docker-compose up
+```
+
 ## Try it online
 
 Want to try Eruption without clone local? Try it on [StackBlitz](https://stackblitz.com/fork/github/eruptionjs/core)
