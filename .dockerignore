@@ -1,1 +1,26 @@
-node_modules
+.git/
+.gitignore
+**/.gitkeep
+**/.DS_Store
+.dockerignore
+Dockerfile*
+docker-compose*.yml
+README.md
+certs/
+docs/
+notes/
+
+# pass env vars through docker-compose
+# or mount .env* in dev
+.env*
+envs/
+dist/
+
+# named volumes
+node_modules/
+
+# cypress
+tests-e2e/node_modules/
+
+# jest coverage
+coverage/
