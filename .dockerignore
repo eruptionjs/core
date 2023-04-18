@@ -13,7 +13,7 @@ notes/
 # pass env vars through docker-compose
 # or mount .env* in dev
 .env*
-envs/
+env/
 dist/
 
 # named volumes
