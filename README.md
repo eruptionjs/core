@@ -20,12 +20,12 @@ _It's fast! Even the tests are fast, thanks to Vite with Vitest ⚡️_
 
 # Installation
 
-This project uses [DEGIT](https://github.com/Rich-Harris/degit) to scaffold. A friendly CLI is coming soon to improve the DX 👀.
+There are two ways to install Eruption: using the template directly from GitHub (through the "Use Template" button), or using the [CLI](https://www.npmjs.com/package/create-eruption).
 
-first, clone the project and give it a name
+If you want to use the CLI, run the following command on your terminal:
 
 ```Bash
-npx degit github:eruptionjs/core#main your-project-name
+npm init eruption@latest
 ```
 
 then, to start the project
