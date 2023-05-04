@@ -39,14 +39,13 @@ npm run dev
 ## Try with Docker
 
 ```bash
-docker build -t react-app .
-docker run -d --rm -p 3000:3000 react-app
+docker-compose -f docker-compose-dev.yml up
 ```
 
-or
+DISCLAIMER: This Docker configuration is for demonstration purposes only. If you plan to use this configuration in a production environment, it is your responsibility to ensure that it is secure and optimized for your needs. You should thoroughly test and review all aspects of the configuration before deploying it in a production environment. The author of this demonstration assumes no responsibility for any issues that may arise from the use of this configuration.
 
 ```bash
-docker-compose up
+docker-compose -f docker-compose.yml up
 ```
 
 ## Try it online
