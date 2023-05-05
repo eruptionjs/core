@@ -1,0 +1,36 @@
+# config files
+#Ignore the git
+.git
+.gitignore
+**/.gitkeep
+**/.DS_Store
+.husky/
+.vscode/
+.editorconfig
+.eslintrc
+.eslintignore
+.prettierignore
+.prettierrc
+.lintstagedrc
+.markdownlint.json
+.stylelintignore
+.stylelintrc
+commitlint.config.ts
+.dockerignore
+Dockerfile*
+docker-compose*.yml
+
+# ignore documentation
+LICENSE
+CHANGELOG.md
+README.md
+
+# pass env vars through docker-compose
+# or mount .env* in dev
+.env*
+env/
+dist/
+
+# named volumes
+node_modules
+
