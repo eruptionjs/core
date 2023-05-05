@@ -36,13 +36,26 @@ npm install
 npm run dev
 ```
 
-## Try with Docker
+## Using with Docker
+
+Pre-requisites:
+
+- Install [Docker](https://www.docker.com/get-docker) for your platform.
+- Install [docker-compose](https://docs.docker.com/compose/install/) for your platform.
+
+### Try with Docker
+
+Making sure you're in your project directory, run:
 
 ```bash
 docker-compose -f docker-compose-dev.yml up
 ```
 
+### Using on Production with Docker
+
 DISCLAIMER: This Docker configuration is for demonstration purposes only. If you plan to use this configuration in a production environment, it is your responsibility to ensure that it is secure and optimized for your needs. You should thoroughly test and review all aspects of the configuration before deploying it in a production environment. The author of this demonstration assumes no responsibility for any issues that may arise from the use of this configuration.
+
+Making sure you're in your project directory, run:
 
 ```bash
 docker-compose -f docker-compose.yml up
