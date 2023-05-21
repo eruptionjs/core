@@ -1,6 +1,6 @@
 # Eruption 🌋
 
-> Next Generation Boilerplate for React/Typescript, built on top of Vite ⚡️
+> Boilerplate for React/Typescript, built on top of Vite ⚡️
 
 _It's fast! Even the tests are fast, thanks to Vite with Vitest ⚡️_
 
