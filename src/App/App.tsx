@@ -15,7 +15,7 @@ export const App = () => {
         <a href="https://reactjs.org" target="_blank" rel="noreferrer">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
-        <a href="https://github.com/eruptionjs/core" target="_blank" rel="noreferrer">
+        <a href="https://eruptionjs.dev" target="_blank" rel="noreferrer">
           <span className="logo eruption">🌋</span>
         </a>
       </div>
