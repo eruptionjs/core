@@ -1,4 +1,5 @@
-FROM node:18-alpine
+# Building step
+FROM node:18-alpine as build
 
 RUN mkdir -p /usr/src/app
 
@@ -11,7 +12,12 @@ RUN npm ci
 COPY . .
 
 RUN npm run build
-## EXPOSE [Port you mentioned in the vite.config file]
-EXPOSE 3000
 
-CMD ["npm", "run", "preview"]
+# Now we're gonna serve the app in a nginx instance
+FROM nginx:stable-alpine AS nginx
+
+COPY --from=build /usr/src/app/dist/ /usr/share/nginx/html/
+
+EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;" ]
