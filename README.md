@@ -53,13 +53,16 @@ docker-compose -f docker-compose-dev.yml up
 
 ### Using on Production with Docker
 
-DISCLAIMER: This Docker configuration is for demonstration purposes only. If you plan to use this configuration in a production environment, it is your responsibility to ensure that it is secure and optimized for your needs. You should thoroughly test and review all aspects of the configuration before deploying it in a production environment. The author of this demonstration assumes no responsibility for any issues that may arise from the use of this configuration.
+DISCLAIMER: This Docker configuration is for demonstration purposes only. If you plan to use this configuration in a production remember to adjust the Dockerfile for your project's needs! 
 
 Making sure you're in your project directory, run:
 
 ```bash
 docker-compose -f docker-compose.yml up
 ```
+*By default it uses port 80*
+
+The production Dockerfile uses an nginx instance to run the built website, for more configuration options, see [nginx's dockerhub page](https://hub.docker.com/_/nginx)
 
 ## Try it online
 
