@@ -24,6 +24,12 @@
   },
   "plugins": ["react", "@typescript-eslint", "import", "jsx-a11y", "react-hooks", "prettier"],
   "rules": {
+    "no-var": "error",
+    "no-alert": "error",
+    "no-console": "error",
+    "prefer-const": "error",
+    // "prefer-destructuring": "error",
+
     "import/no-duplicates": "error",
     "import/no-self-import": "error",
     "import/no-relative-packages": "error",
@@ -35,12 +41,7 @@
     "import/newline-after-import": "error",
     "import/group-exports": "error",
     "import/exports-last": "error",
-    "import/no-useless-path-segments": [
-      "error",
-      {
-        "noUselessIndex": true
-      }
-    ],
+    "import/no-useless-path-segments": ["error", { "noUselessIndex": true }],
 
     "@typescript-eslint/no-explicit-any": "error",
     "@typescript-eslint/no-non-null-assertion": "error",
@@ -48,8 +49,6 @@
 
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "error",
-
-    "no-console": "warn",
 
     "prettier/prettier": [
       "warn",
