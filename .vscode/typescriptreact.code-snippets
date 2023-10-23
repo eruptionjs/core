@@ -95,6 +95,30 @@
       "$0"
     ]
   },
+  "FunctionalComponentProps": {
+    "prefix": ["fcp"],
+    "body": [
+      "import { FC, Children } from 'react'",
+      "",
+      "type ${1:Component}Props = {",
+      "  children?: typeof Children",
+      "}",
+      "",
+      "const ${1:Component}: FC<${1:Component}Props> = ({ children }): JSX.Element => {",
+      "",
+      "  $2",
+      "",
+      "  return (",
+      "    <>",
+      "      {children}",
+      "    </>",
+      "  )",
+      "}",
+      "",
+      "export { ${1:Component} }",
+      "$0"
+    ]
+  },
   "statelessFunctionalComponentProps": {
     "prefix": ["sfcp"],
     "body": [
