@@ -33,5 +33,19 @@ export default defineConfig({
   },
   build: {
     sourcemap: true,
+    target: 'modules',
+    minify: true,
+    // cssTarget: 'modules',
+    cssMinify: true,
+    modulePreload: false,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          react: ['react'],
+          react_jsx: ['react/jsx-runtime'],
+          react_dom: ['react-dom'],
+        },
+      },
+    },
   },
 })
