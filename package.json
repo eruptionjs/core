@@ -44,7 +44,6 @@
     "@commitlint/cli": "^18.x",
     "@commitlint/config-conventional": "^18.x",
     "@commitlint/prompt-cli": "^18.x",
-    "@fvilers/disable-react-devtools": "^1.x",
     "@testing-library/jest-dom": "^6.x",
     "@testing-library/react": "^14.x",
     "@testing-library/user-event": "^14.x",
