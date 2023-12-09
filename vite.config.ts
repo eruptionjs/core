@@ -2,6 +2,7 @@
 import react from '@vitejs/plugin-react-swc'
 import { resolve } from 'path'
 import { defineConfig } from 'vite'
+import { qrcode } from 'vite-plugin-qrcode'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -11,7 +12,7 @@ export default defineConfig({
     },
   },
   envDir: './env/',
-  plugins: [react()],
+  plugins: [react(), qrcode()],
   server: {
     watch: {
       usePolling: true,
