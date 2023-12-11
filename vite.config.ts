@@ -2,6 +2,7 @@
 import react from '@vitejs/plugin-react-swc'
 import { resolve } from 'path'
 import { defineConfig } from 'vite'
+import { compression } from 'vite-plugin-compression2'
 import { qrcode } from 'vite-plugin-qrcode'
 
 // https://vitejs.dev/config/
@@ -12,7 +13,18 @@ export default defineConfig({
     },
   },
   envDir: './env/',
-  plugins: [react(), qrcode()],
+  plugins: [
+    react(),
+    qrcode(),
+    compression({
+      algorithm: 'gzip',
+      exclude: [/\.(br)$/, /\.(gz)$/],
+    }),
+    compression({
+      algorithm: 'brotliCompress',
+      exclude: [/\.(br)$/, /\.(gz)$/],
+    }),
+  ],
   server: {
     watch: {
       usePolling: true,
@@ -34,17 +46,16 @@ export default defineConfig({
   },
   build: {
     sourcemap: true,
-    target: 'modules',
+    target: 'esnext',
     minify: true,
-    // cssTarget: 'modules',
+    cssTarget: 'esnext',
     cssMinify: true,
-    modulePreload: false,
+    cssCodeSplit: true,
+    modulePreload: true,
     rollupOptions: {
       output: {
         manualChunks: {
-          react: ['react'],
-          react_jsx: ['react/jsx-runtime'],
-          react_dom: ['react-dom'],
+          'vendor-react': ['react', 'react/jsx-runtime', 'react-dom'],
         },
       },
     },

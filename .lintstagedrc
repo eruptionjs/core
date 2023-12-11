@@ -1,5 +1,5 @@
 {
   "*.{html,md,json,jsonc}": ["npm run prettier:fix"],
-  "*.{ts,tsx,js,jsx}": ["npm run prettier:fix", "npm run lint:fix"],
+  "*.{ts,tsx}": ["npm run prettier:fix", "npm run lint:fix"],
   "*.css": ["npm run lint:css"]
 }
