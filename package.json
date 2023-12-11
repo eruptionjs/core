@@ -11,7 +11,7 @@
   "repository": "github:eruptionjs/core.git",
   "bugs": "https://github.com/eruptionjs/core/issues",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "start": "vite",
     "build": "npm run lint-staged && tsc && vite build",
     "preview": "vite preview",
@@ -75,6 +75,7 @@
     "typescript": "^5.x",
     "vite": "^5.x",
     "vite-bundle-visualizer": "^0.x",
+    "vite-plugin-qrcode": "^0.2.3",
     "vitest": "^0.x",
     "web-vitals": "^3.x"
   },
