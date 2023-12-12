@@ -17,6 +17,7 @@ dist-ssr
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
+!.vscode/settings.json
 !.vscode/typescript.code-snippets
 !.vscode/typescriptreact.code-snippets
 .idea
@@ -36,3 +37,6 @@ coverage
 .env
 .env.local
 .env.production
+
+# PWA dev files
+/dev-dist
