@@ -5,3 +5,4 @@ coverage
 
 # project files
 node_modules
+dist
