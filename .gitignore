@@ -37,6 +37,7 @@ coverage
 .env
 .env.local
 .env.production
+.env.staging
 
 # PWA dev files
 /dev-dist
