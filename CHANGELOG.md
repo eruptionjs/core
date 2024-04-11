@@ -1,8 +1,23 @@
 # Changelog
 
-## v1.7.1
+## v1.11.0
 
--
+- uses bun as default on project config
+
+## v1.10.0
+
+- chore(rc/1.10): upgrade deps to latest by @devmozao in #61
+
+## v1.9.0
+
+Bump on dependencies to latest. Only major change that's worth noting: husky v9.
+
+## v1.8.0
+
+- feat(dx): add qr-code on the dev server by @raisiqueira in #55
+- chore(packages): update msw version by @raisiqueira in #54
+- chore(ci): remove ci cache by @raisiqueira in #57
+- chore(rc-v1.8): first rc with dep bumps, everything working as - - expected on dev by @devmozao in #56
 
 ## v1.7.0
 

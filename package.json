@@ -2,7 +2,7 @@
   "name": "eruption",
   "description": "Next Generation Boilerplate for React/Typescript, built on top of Vite ⚡️",
   "private": false,
-  "version": "1.9",
+  "version": "1.11",
   "type": "module",
   "main": "src/main.tsx",
   "license": "MIT",
