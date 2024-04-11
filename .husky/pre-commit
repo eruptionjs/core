@@ -1,1 +1,1 @@
-npm run lint-staged && npm run build
+bun run lint-staged && bun run test && bun run build
