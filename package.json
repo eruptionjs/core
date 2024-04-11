@@ -33,7 +33,7 @@
     "format": "bun run prettier && bun run lint",
     "format:fix": "bun run prettier:fix && bun run lint:fix",
     "lint-staged": "lint-staged && tsc",
-    "prebuild": "npm run lint-staged",
+    "prebuild": "bun run lint-staged",
     "prepare": "husky",
     "commit": "commit"
   },
@@ -42,7 +42,7 @@
     "npm": "!^x",
     "yarn": "!^x",
     "pnpm": "!^x",
-    "bun": "^1.0.x"
+    "bun": "^1.1.x"
   },
   "dependencies": {
     "react": "^18.x",
