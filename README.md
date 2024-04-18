@@ -36,34 +36,6 @@ npm install
 npm run dev
 ```
 
-## Using with Docker
-
-Pre-requisites:
-
-- Install [Docker](https://www.docker.com/get-docker) for your platform.
-- Install [docker-compose](https://docs.docker.com/compose/install/) for your platform.
-
-### Try with Docker
-
-Making sure you're in your project directory, run:
-
-```bash
-docker-compose -f docker-compose-dev.yml up
-```
-
-### Using on Production with Docker
-
-DISCLAIMER: This Docker configuration is for demonstration purposes only. If you plan to use this configuration in a production remember to adjust the Dockerfile for your project's needs! 
-
-Making sure you're in your project directory, run:
-
-```bash
-docker-compose -f docker-compose.yml up
-```
-*By default it uses port 80*
-
-The production Dockerfile uses an nginx instance to run the built website, for more configuration options, see [nginx's dockerhub page](https://hub.docker.com/_/nginx)
-
 ## Try it online
 
 Want to try Eruption without clone local? Try it on [StackBlitz](https://stackblitz.com/fork/github/eruptionjs/core)
