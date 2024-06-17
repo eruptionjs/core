@@ -65,7 +65,7 @@
     "@vitejs/plugin-react-swc": "^3.x",
     "@vitest/coverage-v8": "^1.x",
     "@vitest/ui": "^1.x",
-    "c8": "^9.x",
+    "c8": "^10.x",
     "eslint": "^8.x",
     "eslint-config-prettier": "^9.x",
     "eslint-plugin-import": "^2.x",
