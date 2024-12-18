@@ -10,14 +10,14 @@ describe('App', () => {
     expect(screen.getByText('Vite + React/TS = EruptionJS')).toBeInTheDocument()
   })
 
-  test('should return 1 when the user click one time at button', () => {
+  test('should return 1 when the user click one time at button', async () => {
     render(<App />)
 
     const buttonElement = screen.getByRole('button')
     expect(screen.queryByText('count is 0')).toBeInTheDocument()
 
-    userEvent.click(buttonElement)
+    await userEvent.click(buttonElement)
 
-    waitFor(() => expect(screen.queryByText('count is 1')).toBeInTheDocument())
+    await waitFor(() => expect(screen.queryByText('count is 1')).toBeInTheDocument())
   })
 })

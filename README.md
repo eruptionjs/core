@@ -54,7 +54,7 @@ Then, Husky will start the pre-commit hook and run lint-staged, who will run `pr
 
 After that, if everything is validated correctly, Husky will proceed with the commit-msg hook, where it will evaluate if your commit message is following the Conventional Commit's best practice and later run the tests of your project. If any of the tests are broken, the commit will be aborted. You must fix the tests before proceed.
 
-You can also commit your files with the help of the CLI. To do so, just run `npm run commit`. From there, the CLI will assist you in the proccess. As before: if your changes fails the validation, you must fix it before proceed.
+You can also commit your files with the help of the CLI. To do so, just run `npm run commit`. From there, the CLI will assist you in the process. As before: if your changes fails the validation, you must fix it before proceed.
 
 As a best practice, it is strongly recommended that you do not skip the validations. If you need to change the way your commit messages are written, just go to file `commitlint.config.ts` and you will find there the config needed.
 

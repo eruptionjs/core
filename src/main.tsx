@@ -8,9 +8,9 @@ import './index.css'
 const root = createRoot(document.getElementById('root') as HTMLElement)
 
 if (import.meta.env.MODE === 'test') {
-  import('@/__mocks__/browser')
+  void import('@/__mocks__/browser')
     .then(({ worker }) => {
-      worker.start()
+      void worker.start()
     })
     .then(() => {
       root.render(
