@@ -1,11 +1,9 @@
-/// <reference types="vitest" />
 import react from '@vitejs/plugin-react-swc'
 import { resolve } from 'path'
-import { defineConfig } from 'vite'
+import { type UserConfig, defineConfig } from 'vite'
 import { compression } from 'vite-plugin-compression2'
 import { qrcode } from 'vite-plugin-qrcode'
 
-// https://vitejs.dev/config/
 export default defineConfig({
   resolve: {
     alias: {
@@ -25,12 +23,6 @@ export default defineConfig({
       exclude: [/\.(br)$/, /\.(gz)$/],
     }),
   ],
-  test: {
-    globals: true,
-    watch: false,
-    environment: 'happy-dom',
-    setupFiles: './src/setup-test.ts',
-  },
   build: {
     sourcemap: true,
     target: 'esnext',
@@ -47,4 +39,4 @@ export default defineConfig({
       },
     },
   },
-})
+}) satisfies UserConfig
