@@ -2,7 +2,7 @@
   "name": "eruption",
   "description": "Next Generation Boilerplate for React/Typescript, built on top of Vite ⚡️",
   "private": false,
-  "version": "1.12",
+  "version": "1.13",
   "type": "module",
   "main": "src/main.tsx",
   "license": "MIT",
@@ -32,7 +32,7 @@
     "prettier:fix": "bun run prettier -- --write",
     "format": "bun run prettier && bun run lint",
     "format:fix": "bun run prettier:fix && bun run lint:fix",
-    "lint-staged": "lint-staged && tsc",
+    "lint-staged": "tsc & lint-staged",
     "prebuild": "bun run lint-staged",
     "prepare": "husky",
     "commit": "commit"

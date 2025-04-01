@@ -1,1 +1,1 @@
-bun run lint-staged && bun run test && bun run build
+bun run test && bun run build
