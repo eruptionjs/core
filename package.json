@@ -32,6 +32,7 @@
     "prettier:fix": "bun run prettier -- --write",
     "format": "bun run prettier && bun run lint",
     "format:fix": "bun run prettier:fix && bun run lint:fix",
+    "typecheck": "tsc",
     "lint-staged": "tsc & lint-staged",
     "prebuild": "bun run lint-staged",
     "prepare": "husky",
