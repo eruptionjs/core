@@ -70,7 +70,7 @@
     "husky": "^9.x",
     "lint-staged": "^15.x",
     "msw": "^2.x",
-    "npm-check-updates": "^17.x",
+    "npm-check-updates": "^18.x",
     "prettier": "^3.x",
     "stylelint": "^16.x",
     "stylelint-config-standard": "^37.x",
