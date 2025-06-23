@@ -77,7 +77,7 @@
     "typescript": "^5.x",
     "vite": "^6.x",
     "vite-bundle-visualizer": "^1.x",
-    "vite-plugin-compression2": "^1.x",
+    "vite-plugin-compression2": "^2.x",
     "vite-plugin-qrcode": "^0.x",
     "vitest": "^3.x",
     "web-vitals": "^4.x"
