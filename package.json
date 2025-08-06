@@ -66,21 +66,21 @@
     "@vitest/ui": "^3.x",
     "c8": "^10.x",
     "eslint": "^9.x",
-    "happy-dom": "^17.x",
+    "happy-dom": "^18.x",
     "husky": "^9.x",
-    "lint-staged": "^15.x",
+    "lint-staged": "^16.x",
     "msw": "^2.x",
-    "npm-check-updates": "^17.x",
+    "npm-check-updates": "^18.x",
     "prettier": "^3.x",
     "stylelint": "^16.x",
-    "stylelint-config-standard": "^37.x",
+    "stylelint-config-standard": "^39.x",
     "typescript": "^5.x",
-    "vite": "^6.x",
+    "vite": "^7.x",
     "vite-bundle-visualizer": "^1.x",
-    "vite-plugin-compression2": "^1.x",
+    "vite-plugin-compression2": "^2.x",
     "vite-plugin-qrcode": "^0.x",
     "vitest": "^3.x",
-    "web-vitals": "^4.x"
+    "web-vitals": "^5.x"
   },
   "msw": {
     "workerDirectory": "public"
