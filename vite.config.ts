@@ -15,11 +15,6 @@ export default defineConfig({
     react(),
     qrcode(),
     compression({
-      algorithm: 'gzip',
-      exclude: [/\.(br)$/, /\.(gz)$/],
-    }),
-    compression({
-      algorithm: 'brotliCompress',
       exclude: [/\.(br)$/, /\.(gz)$/],
     }),
   ],
