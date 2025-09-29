@@ -53,7 +53,7 @@
     "@commitlint/cli": "^19.x",
     "@commitlint/config-conventional": "^19.x",
     "@commitlint/prompt-cli": "^19.x",
-    "@commitlint/types": "^19.x",
+    "@commitlint/types": "^20.x",
     "@eruptionjs/config": "^0.6.1",
     "@testing-library/jest-dom": "^6.x",
     "@testing-library/react": "^16.x",
