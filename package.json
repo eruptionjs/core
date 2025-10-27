@@ -61,7 +61,7 @@
     "@types/bun": "^1.x",
     "@types/react": "^19.x",
     "@types/react-dom": "^19.x",
-    "@vitejs/plugin-react-swc": "^3.x",
+    "@vitejs/plugin-react-swc": "^4.x",
     "@vitest/coverage-v8": "^3.x",
     "@vitest/ui": "^3.x",
     "c8": "^10.x",
