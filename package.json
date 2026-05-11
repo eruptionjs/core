@@ -65,7 +65,7 @@
     "@vitest/coverage-v8": "^4.x",
     "@vitest/ui": "^4.x",
     "c8": "^11.x",
-    "eslint": "^9.x",
+    "eslint": "^10.x",
     "happy-dom": "^20.x",
     "husky": "^9.x",
     "lint-staged": "^17.x",
