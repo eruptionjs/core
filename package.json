@@ -19,7 +19,7 @@
     "treemap": "vite-bundle-visualizer --open --template=treemap --output='./dist/treemap.html'",
     "prune": "rm -rf node_modules yarn.lock package-lock.json pnpm-lock.yaml bun.lockb dist coverage build dev-dist",
     "preupdate": "bun pm cache rm",
-    "update": "ncu --interactive --format group --install never",
+    "update": "bunx ncu --interactive --format group --install never",
     "postupdate": "bun install",
     "upgrade": "bun run prune && bun run update",
     "test:watch": "vitest --watch",
