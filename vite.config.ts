@@ -28,8 +28,10 @@ export default defineConfig({
     modulePreload: true,
     rollupOptions: {
       output: {
-        manualChunks: {
-          'vendor-react': ['react', 'react/jsx-runtime', 'react-dom'],
+        manualChunks(id) {
+          if (id.includes('react')) {
+            return 'vendor-react'
+          }
         },
       },
     },
