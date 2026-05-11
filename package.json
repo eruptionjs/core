@@ -68,7 +68,7 @@
     "eslint": "^9.x",
     "happy-dom": "^18.x",
     "husky": "^9.x",
-    "lint-staged": "^16.x",
+    "lint-staged": "^17.x",
     "msw": "^2.x",
     "npm-check-updates": "^18.x",
     "prettier": "^3.x",
