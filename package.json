@@ -50,10 +50,10 @@
     "react-dom": "^19.x"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.x",
-    "@commitlint/config-conventional": "^19.x",
-    "@commitlint/prompt-cli": "^19.x",
-    "@commitlint/types": "^19.x",
+    "@commitlint/cli": "^21.x",
+    "@commitlint/config-conventional": "^21.x",
+    "@commitlint/prompt-cli": "^21.x",
+    "@commitlint/types": "^21.x",
     "@eruptionjs/config": "^0.6.1",
     "@testing-library/jest-dom": "^6.x",
     "@testing-library/react": "^16.x",
