@@ -5,6 +5,7 @@
     /* Absolute import */
     "baseUrl": ".",
     "paths": { "@/*": ["src/*"] },
-    "types": ["vite/client", "vitest/globals"]
+    "types": ["vite/client", "vitest/globals"],
+    "ignoreDeprecations": "6.0"
   }
 }
