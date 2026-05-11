@@ -29,7 +29,7 @@
         "husky": "^9.x",
         "lint-staged": "^17.x",
         "msw": "^2.x",
-        "npm-check-updates": "^18.x",
+        "npm-check-updates": "^22.x",
         "prettier": "^3.x",
         "stylelint": "^17.x",
         "stylelint-config-standard": "^40.x",
@@ -1014,7 +1014,7 @@
 
     "normalize-path": ["normalize-path@3.0.0", "", {}, "sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA=="],
 
-    "npm-check-updates": ["npm-check-updates@18.0.2", "", { "bin": { "npm-check-updates": "build/cli.js", "ncu": "build/cli.js" } }, "sha512-9uVFZUCg5oDOcbzdsrJ4BEvq2gikd23tXuF5mqpl4mxVl051lzB00Xmd7ZVjVWY3XNUF3BQKWlN/qmyD8/bwrA=="],
+    "npm-check-updates": ["npm-check-updates@22.1.1", "", { "bin": { "npm-check-updates": "build/cli.js", "ncu": "build/cli.js" } }, "sha512-uWSxJW25dy5ZM4SdLsi0VBgPSJlo7u+jARQ6Xql+85YYCoqXU2ZaympAZ6237/oybCq/I4nXddE9S9BTwBfBXA=="],
 
     "object-assign": ["object-assign@4.1.1", "", {}, "sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg=="],
 
