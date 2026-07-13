@@ -74,7 +74,7 @@
     "prettier": "^3.x",
     "stylelint": "^17.x",
     "stylelint-config-standard": "^40.x",
-    "typescript": "^6.x",
+    "typescript": "^7.x",
     "vite": "^8.x",
     "vite-bundle-visualizer": "^1.x",
     "vite-plugin-compression2": "^2.x",
