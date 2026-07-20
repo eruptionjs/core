@@ -64,7 +64,7 @@
     "@vitejs/plugin-react-swc": "^4.x",
     "@vitest/coverage-v8": "^4.x",
     "@vitest/ui": "^4.x",
-    "c8": "^11.x",
+    "c8": "^12.x",
     "eslint": "^10.x",
     "happy-dom": "^20.x",
     "husky": "^9.x",
