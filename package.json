@@ -54,7 +54,7 @@
     "@commitlint/config-conventional": "^21.x",
     "@commitlint/prompt-cli": "^21.x",
     "@commitlint/types": "^21.x",
-    "@eruptionjs/config": "^0.6.1",
+    "@eruptionjs/config": "^0.8.0",
     "@testing-library/jest-dom": "^6.x",
     "@testing-library/react": "^16.x",
     "@testing-library/user-event": "^14.x",
